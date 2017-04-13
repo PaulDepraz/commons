@@ -1,6 +1,6 @@
 from contextlib import contextmanager
 
-from commons.generics.dao import DAO, DAOFactory, DAOSingleton, DAOI
+from generics.dao import DAO, DAOFactory, DAOSingleton, DAOI
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 

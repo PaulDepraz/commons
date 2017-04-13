@@ -1,4 +1,4 @@
-from commons.generics.bo import BO
+from generics.bo import BO
 
 
 class BO(BO):

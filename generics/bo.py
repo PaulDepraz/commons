@@ -1,4 +1,4 @@
-from commons.generics.dao import DAOFactory, DAOI
+from generics.dao import DAOFactory, DAOI
 
 
 class BO:

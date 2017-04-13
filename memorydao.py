@@ -1,4 +1,4 @@
-from commons.generics.dao import DAO, DAOFactory
+from generics.dao import DAO, DAOFactory
 from copy import deepcopy
 
 

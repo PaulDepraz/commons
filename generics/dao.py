@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractclassmethod
-from commons.generics.model import Model
+from generics.model import Model
 
 
 class ABCSingleton(ABCMeta):
