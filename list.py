@@ -20,5 +20,5 @@ def chunks(_list, chunck_size):
     :param chunck_size: int
     :param _list: [list]
     """
-    for index in xrange(0, len(_list), chunck_size):
+    for index in range(0, len(_list), chunck_size):
         yield _list[index: index + chunck_size]
