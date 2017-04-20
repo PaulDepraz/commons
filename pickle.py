@@ -2,13 +2,15 @@ import pickle
 import os
 
 
-def get_pickle(path):
+def get_pickle(path, default={}):
     """
     Unpickle ;)
+    :param default: default value for inexistent file
     :param path: file path
     """
-    with os.open(path) as obj_file:
-        obj = pickle.load(obj_file)
+    obj = default
+    if os.path.exists(path):
+        obj = pickle.load(open(path, 'rb'))
     return obj
 
 
@@ -18,7 +20,4 @@ def save_pickle(obj, path):
     :param path: file path
     :param obj: object you want to store
     """
-    pickled_data = pickle.dumps(obj, protocol=2)
-    file_ = open(path, 'w+')
-    file_.truncate()
-    print >> file_, pickled_data
+    pickle.dump(obj, open(path, 'wb'))
