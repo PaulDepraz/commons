@@ -1,5 +1,6 @@
 from abc import ABCMeta, abstractclassmethod
-from generics.model import Model
+
+from mvc.generic.model import Model
 
 
 class ABCSingleton(ABCMeta):

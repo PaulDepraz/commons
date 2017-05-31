@@ -1,8 +1,10 @@
 from contextlib import contextmanager
-from log import log
+
 from flask_restful import Resource, abort, reqparse
 from sqlalchemy.exc import IntegrityError
 from werkzeug.exceptions import BadRequest
+
+from helper.log import log
 
 
 class API:

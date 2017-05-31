@@ -1,8 +1,9 @@
 from contextlib import contextmanager
 
-from generics.dao import DAO, DAOFactory, DAOSingleton, DAOI
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
+from mvc.generic.dao import DAO, DAOFactory, DAOSingleton, DAOI
 
 
 class AlchemyDAOFactory(DAOFactory):

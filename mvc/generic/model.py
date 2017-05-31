@@ -1,4 +1,4 @@
-from jsonable import JSONAble
+from rest.jsonable import JSONAble
 
 
 class Model(JSONAble):

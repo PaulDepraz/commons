@@ -1,4 +1,4 @@
-from generics.bo import BO
+from mvc.generic.bo import BO
 
 
 class BO(BO):
