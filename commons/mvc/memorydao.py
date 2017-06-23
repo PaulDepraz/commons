@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from commons.mvc import DAO, DAOFactory
+from commons.mvc.generic.dao import DAO, DAOFactory
 
 
 class MemoryDAOFactory(DAOFactory):

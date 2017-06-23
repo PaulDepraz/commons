@@ -3,7 +3,7 @@ from contextlib import contextmanager
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from commons.mvc import DAO, DAOFactory, DAOSingleton, DAOI
+from commons.mvc.generic.dao import DAO, DAOFactory, DAOSingleton, DAOI
 
 
 class AlchemyDAOFactory(DAOFactory):

@@ -1,4 +1,4 @@
-from commons.generics.model import Model
+from commons.mvc.generic.model import Model
 
 
 class Identificacao(Model):

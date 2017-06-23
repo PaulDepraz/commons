@@ -1,4 +1,4 @@
-from commons.mvc import BO
+from commons.mvc.generic.bo import BO
 
 
 class BO(BO):
