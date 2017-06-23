@@ -1,9 +1,9 @@
 # Commons Lib
 Biblioteca de utilidades comuns
-    * mvc
-    * mvc.generic
-    * pt_br
-    * rest
+* mvc
+* mvc.generic
+* pt_br
+* rest
 
 # Use this to update latest release
 ```

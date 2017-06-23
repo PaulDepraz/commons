@@ -1,4 +1,4 @@
-from commons.mvc import DAOFactory, DAOI
+from commons.mvc.generic.dao import DAOFactory, DAOI
 
 
 class BO:
