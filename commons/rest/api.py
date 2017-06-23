@@ -4,7 +4,7 @@ from flask_restful import Resource, abort, reqparse
 from sqlalchemy.exc import IntegrityError
 from werkzeug.exceptions import BadRequest
 
-from helper.log import log
+from commons.helper import log
 
 
 class API:
