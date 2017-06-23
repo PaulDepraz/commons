@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='commons',
-    version='0.8',
+    version='0.8.1',
     packages=['commons'],
     url='https://github.com/PaulDepraz/commons',
     license='GPLv3',
